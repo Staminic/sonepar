@@ -1,0 +1,78 @@
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dab571;
+      }
+    </style>
+    <symbol id="square_dot" data-name="square dot" viewBox="0 0 2 2">
+      <rect class="cls-1" width="2" height="2"/>
+    </symbol>
+  </defs>
+  <title>sqares-pattern</title>
+  <g>
+    <use width="2" height="2" transform="translate(10.73 8.42)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(30.89 99.92)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(73.87 50.71)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(108.61 19.28)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(126.22 10.38)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(101.85 44.36)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(53.01 92.35)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(31.69 140.14)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(65.76 143.14)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(143.38 100.04)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(169.82 89.1)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(161.18 125.01)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(163.67 173.71)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(168.31 175.34)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(100.93 176.17)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(55.68 180.48)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(19.66 172.59)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(26.79 132.36)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(67.24 111.41)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(122.32 119.92)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(180.83 105.76)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(193.59 35.13)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(145.59 50.06)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(101.53 73.64)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(44.88 66.13)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(27.84 40.03)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(35.05 17.53)" xlink:href="#square_dot"/>
+  </g>
+  <g>
+    <use width="2" height="2" transform="translate(82.69 81.85)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(104.74 72.2)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(81.65 44.07)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(50.52 44.95)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(64.33 101.49)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(124.62 117.43)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(151.11 79.05)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(117.46 63.4)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(121.73 124.12)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(168.92 122.01)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(155.13 71.01)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(69.44 42.05)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(24.57 100.2)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(64.66 182.85)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(171.48 188.08)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(198.8 128.13)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(177.87 72.52)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(122.43 43.38)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(123.16 85.97)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(137.17 83.19)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(125.32 63.15)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(119.22 98.82)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(110.58 154.18)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(100.17 159.1)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(138.12 161.02)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(136.3 174.73)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(50.93 154.59)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(6.4 89.19)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(40.3 42.99)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(137.36 57.53)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(165.93 131.44)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(124.92 150.39)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(97.68 126.17)" xlink:href="#square_dot"/>
+    <use width="2" height="2" transform="translate(100.94 119.77)" xlink:href="#square_dot"/>
+  </g>
+</svg>

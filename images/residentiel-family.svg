@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>residentiel-family</title>
+  <g id="Calque_2" data-name="Calque 2">
+    <g id="Calque_1-2" data-name="Calque 1">
+      <g id="Calque_2-2" data-name="Calque 2">
+        <g id="Calque_1-2-2" data-name="Calque 1-2">
+          <g id="Calque_2-2-2" data-name="Calque 2-2">
+            <g id="Calque_1-2-2-2" data-name="Calque 1-2-2">
+              <rect class="cls-1" width="120" height="120"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path class="cls-2" d="M98.92,41V16.64H85.76V29.7L59.8,7.5,11,49.12H21v65.55H49.72V82.33h20v32.33H98.38V49.12h10.08ZM47.5,73H28.67V54.17H47.5Zm43.42,0H72.08V54.17H90.92Z"/>
+    </g>
+  </g>
+</svg>

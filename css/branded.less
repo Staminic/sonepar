@@ -1,0 +1,173 @@
+
+// Variante Legrand
+
+@gold: #DAB571;
+@legrand-brand-red: #e3000b;
+
+// Top Banner
+
+.banner-top {
+  display: block;
+  padding: 10px;
+  background-color: rgba(0,0,0,.03);
+  background-image: url('../images/legrand-girl.png'), url('../images/squares-pattern.svg');
+  background-repeat: no-repeat, repeat;
+  background-size: contain, 300px;
+  background-position: 100% 0, 0 0;
+  background-attachment: scroll;
+  color: @gold;
+  font-family: 'Barlow Semi Condensed', sans-serif;;
+  font-size: 42px;
+  text-transform: uppercase;
+
+  @media (min-width: 576px) {
+    background-size: 20%, 300px;
+    background-position: 100% 50%, 0 0;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 20px;
+    font-size: 64px;
+  }
+
+  .custom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    @media (min-width: 576px) {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+
+  p {
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 .5em 0 0;
+
+    @media (min-width: 576px) {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    @media (min-width: 1024px) {
+      margin: 0 1em 0 0;
+    }
+  }
+
+  img {
+    width: 150px;
+    height: auto;
+    order: -1;
+
+    @media (min-width: 576px) {
+      width: 200px;
+      margin-top: 15px;
+      order: 3;
+    }
+
+    @media (min-width: 1024px) {
+      width: 260px;
+      margin-top: 20px;
+    }
+  }
+
+  strong {
+    font-weight: @font-weight-bold;
+
+    @media (min-width: 576px) {
+      display: flex;
+
+      &::after {
+        content: " ";
+        display: inline-block;
+        width: 1px;
+        padding-right: .25em;
+        margin-top: .2em;
+        margin-right: .25em;
+        margin-bottom: .1em;
+        border-right: 2px solid #000;
+      }
+    }
+  }
+
+  .date {
+    color: @legrand-brand-red;
+  }
+
+  &:hover,
+  &:focus {
+    color: @gold;
+    text-decoration: none;
+  }
+}
+
+// Menu item
+
+  .item-319 {
+    a,
+    a:hover {
+      background-color: @legrand-brand-red !important;
+      color: #fff !important;
+    }
+  }
+
+// Breadcrumb
+
+.legrand {
+  .breadcrumbs {
+    background: #4d2683;
+    background: linear-gradient(to right, #4d2683 0%, #d21983 50%, #e51514 100%);
+
+    .container {
+      .custom {
+        h1 {
+          font-size: 1.4em;
+          font-weight: 700;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+// Cards
+
+.legrand {
+  .list-items {
+    .list-item {
+      > .flex {
+        border: 1px solid #000;
+
+        .prod-family {
+          background-color: @gold;
+        }
+      }
+    }
+  }
+}
+
+// Article
+
+.nouveaute-legrand {
+  @media (min-width: 576px) {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.droppicsvideo i.video,
+.droppicssinglevideo i.video {
+  display: none !important;
+}

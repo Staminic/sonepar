@@ -1,0 +1,1198 @@
+//=======================================================================
+// LIST GRID
+//=======================================================================
+
+//==============
+// PRODUCTS LIST
+//==============
+
+.list-items {
+
+  // STANDARD PRODUCT
+  .list-item {
+    > .flex {
+      &.genie-climatique {
+        border-color: @genie-climatique;
+      }
+
+      &.cables {
+        border-color: @cables;
+      }
+
+      &.industrie {
+        border-color: @industrie;
+      }
+
+      &.eclairage {
+        border-color: @eclairage;
+      }
+
+      &.securite {
+        border-color: @securite;
+      }
+
+      &.outillage {
+        border-color: @outillage;
+      }
+
+      &.residentiel {
+        border-color: @residentiel;
+      }
+
+      &.tertiaire {
+        border-color: @tertiaire;
+      }
+
+      &.genie-climatique {
+        .prod-family {
+          background-color: @genie-climatique;
+
+          /*span {
+            background-image: url('../images/genie-climatique-family.svg');
+          }*/
+        }
+      }
+
+      &.cables {
+        .prod-family {
+          background-color: @cables;
+
+          /*span {
+            background-image: url('../images/cables-family.svg');
+          }*/
+        }
+      }
+
+      &.industrie {
+        .prod-family {
+          background-color: @industrie;
+
+          /*span {
+            background-image: url('../images/industrie-family.svg');
+          }*/
+        }
+      }
+
+      &.eclairage {
+        .prod-family {
+          background-color: @eclairage;
+
+          /*span {
+            background-image: url('../images/eclairage-family.svg');
+          }*/
+        }
+      }
+
+      &.securite {
+        .prod-family {
+          background-color: @securite;
+
+          /*span {
+            background-image: url('../images/securite-family.svg');
+          }*/
+        }
+      }
+
+      &.outillage {
+        .prod-family {
+          background-color: @outillage;
+
+          /*span {
+            background-image: url('../images/outillage-family.svg');
+          }*/
+        }
+      }
+
+      &.residentiel {
+        .prod-family {
+          background-color: @residentiel;
+
+          /*span {
+            background-image: url('../images/residentiel-family.svg');
+          }*/
+        }
+      }
+
+      &.tertiaire {
+        .prod-family {
+          background-color: @tertiaire;
+
+          /*span {
+            background-image: url('../images/residentiel-family.svg');
+          }*/
+        }
+      }
+    }
+
+    // FEATURED PRODUCT
+    &.prod-new {
+      > .flex {
+    		&.genie-climatique {
+    			background: #6f207d;
+    			background: linear-gradient(135deg,  #20567d 0%,#6f207d 100%);
+    		}
+      }
+    }
+  }
+}
+
+// PAGINATION AND TITLE
+
+.genie-climatique {
+  .new-items {
+    color: @genie-climatique;
+  }
+
+  ul.pagination {
+    > li {
+      > a {
+        border-color: @genie-climatique;
+        color: @genie-climatique;
+
+        &:hover,
+        &:focus {
+          background-color: transparent;
+          border-color: @genie-climatique;
+          color: @genie-climatique;
+        }
+      }
+
+      &.active {
+        > a {
+          background-color: @genie-climatique;
+          color: #FFF;
+
+          &:hover,
+          &:focus {
+            background-color: @genie-climatique;
+            color: #FFF;
+          }
+        }
+      }
+
+      &.disabled {
+        > a {
+          border-color: @genie-climatique;
+          color: screen(@genie-climatique, #CCCCCC);
+
+
+          &:hover,
+          &:focus {
+            border-color: @genie-climatique;
+            color: screen(@genie-climatique, #CCCCCC);
+          }
+        }
+      }
+    }
+  }
+}
+
+.cables {
+  .new-items {
+    color: @cables;
+  }
+
+  ul.pagination {
+    > li {
+      > a {
+        border-color: @cables;
+        color: @cables;
+
+        &:hover,
+        &:focus {
+          background-color: transparent;
+          border-color: @cables;
+          color: @cables;
+        }
+      }
+
+      &.active {
+        > a {
+          background-color: @cables;
+          color: #FFF;
+
+          &:hover,
+          &:focus {
+            background-color: @cables;
+            color: #FFF;
+          }
+        }
+      }
+
+      &.disabled {
+        > a {
+          border-color: @cables;
+          color: screen(@cables, #CCCCCC);
+
+
+          &:hover,
+          &:focus {
+            border-color: @cables;
+            color: screen(@cables, #CCCCCC);
+          }
+        }
+      }
+    }
+  }
+}
+
+.industrie {
+  .new-items {
+    color: @industrie;
+  }
+
+  ul.pagination {
+    > li {
+      > a {
+        border-color: @industrie;
+        color: @industrie;
+
+        &:hover,
+        &:focus {
+          background-color: transparent;
+          border-color: @industrie;
+          color: @industrie;
+        }
+      }
+
+      &.active {
+        > a {
+          background-color: @industrie;
+          color: #FFF;
+
+          &:hover,
+          &:focus {
+            background-color: @industrie;
+            color: #FFF;
+          }
+        }
+      }
+
+      &.disabled {
+        > a {
+          border-color: @industrie;
+          color: screen(@industrie, #CCCCCC);
+
+
+          &:hover,
+          &:focus {
+            border-color: @industrie;
+            color: screen(@industrie, #CCCCCC);
+          }
+        }
+      }
+    }
+  }
+}
+
+.eclairage {
+  .new-items {
+    color: @eclairage;
+  }
+
+  ul.pagination {
+    > li {
+      > a {
+        border-color: @eclairage;
+        color: @eclairage;
+
+        &:hover,
+        &:focus {
+          background-color: transparent;
+          border-color: @eclairage;
+          color: @eclairage;
+        }
+      }
+
+      &.active {
+        > a {
+          background-color: @eclairage;
+          color: #FFF;
+
+          &:hover,
+          &:focus {
+            background-color: @eclairage;
+            color: #FFF;
+          }
+        }
+      }
+
+      &.disabled {
+        > a {
+          border-color: @eclairage;
+          color: screen(@eclairage, #CCCCCC);
+
+
+          &:hover,
+          &:focus {
+            border-color: @eclairage;
+            color: screen(@eclairage, #CCCCCC);
+          }
+        }
+      }
+    }
+  }
+}
+
+.securite {
+  .new-items {
+    color: @securite;
+  }
+
+  ul.pagination {
+    > li {
+      > a {
+        border-color: @securite;
+        color: @securite;
+
+        &:hover,
+        &:focus {
+          background-color: transparent;
+          border-color: @securite;
+          color: @securite;
+        }
+      }
+
+      &.active {
+        > a {
+          background-color: @securite;
+          color: #FFF;
+
+          &:hover,
+          &:focus {
+            background-color: @securite;
+            color: #FFF;
+          }
+        }
+      }
+
+      &.disabled {
+        > a {
+          border-color: @securite;
+          color: screen(@securite, #CCCCCC);
+
+
+          &:hover,
+          &:focus {
+            border-color: @securite;
+            color: screen(@securite, #CCCCCC);
+          }
+        }
+      }
+    }
+  }
+}
+
+.outillage {
+  .new-items {
+    color: @outillage;
+  }
+
+  ul.pagination {
+    > li {
+      > a {
+        border-color: @outillage;
+        color: @outillage;
+
+        &:hover,
+        &:focus {
+          background-color: transparent;
+          border-color: @outillage;
+          color: @outillage;
+        }
+      }
+
+      &.active {
+        > a {
+          background-color: @outillage;
+          color: #FFF;
+
+          &:hover,
+          &:focus {
+            background-color: @outillage;
+            color: #FFF;
+          }
+        }
+      }
+
+      &.disabled {
+        > a {
+          border-color: @outillage;
+          color: screen(@outillage, #CCCCCC);
+
+
+          &:hover,
+          &:focus {
+            border-color: @outillage;
+            color: screen(@outillage, #CCCCCC);
+          }
+        }
+      }
+    }
+  }
+}
+
+.residentiel {
+  .new-items {
+    color: @residentiel;
+  }
+
+  ul.pagination {
+    > li {
+      > a {
+        border-color: @residentiel;
+        color: @residentiel;
+
+        &:hover,
+        &:focus {
+          background-color: transparent;
+          border-color: @residentiel;
+          color: @residentiel;
+        }
+      }
+
+      &.active {
+        > a {
+          background-color: @residentiel;
+          color: #FFF;
+
+          &:hover,
+          &:focus {
+            background-color: @residentiel;
+            color: #FFF;
+          }
+        }
+      }
+
+      &.disabled {
+        > a {
+          border-color: @residentiel;
+          color: screen(@residentiel, #CCCCCC);
+
+
+          &:hover,
+          &:focus {
+            border-color: @residentiel;
+            color: screen(@residentiel, #CCCCCC);
+          }
+        }
+      }
+    }
+  }
+}
+
+.tertiaire {
+  .new-items {
+    color: @tertiaire;
+  }
+
+  ul.pagination {
+    > li {
+      > a {
+        border-color: @tertiaire;
+        color: @tertiaire;
+
+        &:hover,
+        &:focus {
+          background-color: transparent;
+          border-color: @tertiaire;
+          color: @tertiaire;
+        }
+      }
+
+      &.active {
+        > a {
+          background-color: @tertiaire;
+          color: #FFF;
+
+          &:hover,
+          &:focus {
+            background-color: @tertiaire;
+            color: #FFF;
+          }
+        }
+      }
+
+      &.disabled {
+        > a {
+          border-color: @tertiaire;
+          color: screen(@tertiaire, #CCCCCC);
+
+
+          &:hover,
+          &:focus {
+            border-color: @tertiaire;
+            color: screen(@tertiaire, #CCCCCC);
+          }
+        }
+      }
+    }
+  }
+}
+
+//====================
+// PRODUCT FAMILY LIST
+//====================
+
+.family-list {
+  .list-items {
+    .list-item {
+      &.genie-climatique {
+        > .flex {
+          border-color: @genie-climatique;
+
+          .info {
+            .item-heading {
+              background-color: @genie-climatique;
+
+              .heading {
+                background-image: url('../images/genie-climatique-family.svg');
+              }
+            }
+          }
+
+          .more {
+            background-color: @genie-climatique !important;
+          }
+        }
+      }
+
+      &.cables {
+        > .flex {
+          border-color: @cables;
+
+          .info {
+            .item-heading {
+              background-color: @cables;
+
+              .heading {
+                background-image: url('../images/cables-family.svg');
+              }
+            }
+          }
+
+          .more {
+            background-color: @cables !important;
+          }
+        }
+      }
+
+      &.industrie {
+        > .flex {
+          border-color: @industrie;
+
+          .info {
+            .item-heading {
+              background-color: @industrie;
+
+              .heading {
+                background-image: url('../images/industrie-family.svg');
+              }
+            }
+          }
+
+          .more {
+            background-color: @industrie !important;
+          }
+        }
+      }
+
+      &.eclairage {
+        > .flex {
+          border-color: @eclairage;
+
+          .info {
+            .item-heading {
+              background-color: @eclairage;
+
+              .heading {
+                background-image: url('../images/eclairage-family.svg');
+              }
+            }
+          }
+
+          .more {
+            background-color: @eclairage !important;
+          }
+        }
+      }
+
+      &.securite {
+        > .flex {
+          border-color: @securite;
+
+          .info {
+            .item-heading {
+              background-color: @securite;
+
+                .heading {
+                  background-image: url('../images/securite-family.svg');
+              }
+            }
+          }
+
+          .more {
+            background-color: @securite !important;
+          }
+        }
+      }
+
+      &.outillage {
+        > .flex {
+          border-color: @outillage;
+
+          .info {
+            .item-heading {
+              background-color: @outillage;
+
+              .heading {
+                background-image: url('../images/outillage-family.svg');
+              }
+            }
+          }
+
+          .more {
+            background-color: @outillage !important;
+          }
+        }
+      }
+
+      &.residentiel {
+        > .flex {
+          border-color: @residentiel;
+
+          .info {
+            .item-heading {
+              background-color: @residentiel;
+
+              .heading {
+                background-image: url('../images/tableau-family.svg');
+              }
+            }
+          }
+
+          .more {
+            background-color: @residentiel !important;
+          }
+        }
+      }
+
+      &.tertiaire {
+        > .flex {
+          border-color: @tertiaire;
+
+          .info {
+            .item-heading {
+              background-color: @tertiaire;
+
+              .heading {
+                background-image: url('../images/appareillage-family.svg');
+              }
+            }
+          }
+
+          .more {
+            background-color: @tertiaire !important;
+          }
+        }
+      }
+
+      &.petit-tertiaire {
+        > .flex {
+          .info {
+            .item-heading {
+              .heading {
+                background-image: url('../images/residentiel-family.png');
+              }
+            }
+          }
+        }
+      }
+
+      &.grand-tertiaire {
+        > .flex {
+          .info {
+            .item-heading {
+              .heading {
+                background-image: url('../images/tertiaire-family.png');
+              }
+            }
+          }
+        }
+      }
+
+      &.industriel {
+        > .flex {
+          .info {
+            .item-heading {
+              .heading {
+                background-image: url('../images/industriel-family.png');
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//===================
+// HOMEPAGE LIST GRID
+//===================
+
+//=============
+// PRODUCT PAGE
+//=============
+
+// RELATED PRODUCTS
+.bottombody {
+  &.genie-climatique {
+    .list-items {
+      .list-item {
+        > .flex {
+          border-color: @genie-climatique;
+        }
+      }
+    }
+  }
+
+  &.cables {
+    .list-items {
+      .list-item {
+        > .flex {
+          border-color: @cables;
+        }
+      }
+    }
+  }
+
+  &.idustrie {
+    .list-items {
+      .list-item {
+        > .flex {
+          border-color: @industrie;
+        }
+      }
+    }
+  }
+
+  &.eclairage {
+    .list-items {
+      .list-item {
+        > .flex {
+          border-color: @eclairage;
+        }
+      }
+    }
+  }
+
+  &.securite {
+    .list-items {
+      .list-item {
+        > .flex {
+          border-color: @securite;
+        }
+      }
+    }
+  }
+
+  &.outillage {
+    .list-items {
+      .list-item {
+        > .flex {
+          border-color: @outillage;
+        }
+      }
+    }
+  }
+}
+
+// RELATED TOPICS
+.bottombody {
+  &.genie-climatique {
+    .list-items {
+      .list-item {
+        > .flex {
+          &.topic-standard {
+            .info {
+              background-color: @genie-climatique;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.cables {
+    .list-items {
+      .list-item {
+        > .flex {
+          &.topic-standard {
+            .info {
+              background-color: @cables;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.industrie {
+    .list-items {
+      .list-item {
+        > .flex {
+          &.topic-standard {
+            .info {
+              background-color: @industrie;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.eclairage {
+    .list-items {
+      .list-item {
+        > .flex {
+          &.topic-standard {
+            .info {
+              background-color: @eclairage;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.securite {
+    .list-items {
+      .list-item {
+        > .flex {
+          &.topic-standard {
+            .info {
+              background-color: @securite;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.outillage {
+    .list-items {
+      .list-item {
+        > .flex {
+          &.topic-standard {
+            .info {
+              background-color: @outillage;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//=======================================================================
+// BREADCRUMBS
+//=======================================================================
+
+	.breadcrumbs {
+    &.genie-climatique {
+    background-color: @genie-climatique;
+
+      /*.flex {
+        .cck_module_breadcrumbs {
+          .pathway span,
+  				.pathway-last {
+            background-image: url('../images/genie-climatique-family.svg');
+          }
+        }
+      }*/
+    }
+
+    &.cables {
+    background-color: @cables;
+
+      /*.flex {
+        .cck_module_breadcrumbs {
+          .pathway span,
+  				.pathway-last {
+            background-image: url('../images/cables-family.svg');
+          }
+        }
+      }*/
+    }
+
+    &.industrie {
+    background-color: @industrie;
+
+      /*.flex {
+        .cck_module_breadcrumbs {
+          .pathway span,
+          .pathway-last {
+            background-image: url('../images/industrie-family.svg');
+          }
+        }
+      }*/
+    }
+
+    &.eclairage {
+    background-color: @eclairage;
+
+      /*.flex {
+        .cck_module_breadcrumbs {
+          .pathway span,
+          .pathway-last {
+            background-image: url('../images/eclairage-family.svg');
+          }
+        }
+      }*/
+    }
+
+    &.securite {
+    background-color: @securite;
+
+      /*.flex {
+        .cck_module_breadcrumbs {
+          .pathway span,
+          .pathway-last {
+            background-image: url('../images/securite-family.svg');
+          }
+        }
+      }*/
+    }
+
+    &.outillage {
+    background-color: @outillage;
+
+      /*.flex {
+        .cck_module_breadcrumbs {
+          .pathway span,
+          .pathway-last {
+            background-image: url('../images/outillage-family.svg');
+          }
+        }
+      }*/
+    }
+
+    &.residentiel {
+    background-color: @residentiel;
+
+      /*.flex {
+        .cck_module_breadcrumbs {
+          .pathway span,
+          .pathway-last {
+            background-image: url('../images/residentiel-family.svg');
+          }
+        }
+      }*/
+    }
+
+    &.tertiaire {
+    background-color: @tertiaire;
+
+      /*.flex {
+        .cck_module_breadcrumbs {
+          .pathway span,
+          .pathway-last {
+            background-image: url('../images/residentiel-family.svg');
+          }
+        }
+      }*/
+    }
+  }
+
+  //=======================================================================
+  // MENU
+  //=======================================================================
+
+.item-106,
+.item-144 { // alias menu
+  .dropdown-menu {
+  	> li {
+  		> a {
+  			&.genie-climatique {
+  				/*background-color: @genie-climatique;*/
+          /*background-image: url('../images/genie-climatique-family.svg');*/
+          border-left: 6px solid @genie-climatique;
+          border-bottom: none;
+          color: @genie-climatique;
+
+          &:hover,
+          &:focus {
+            /*background-color: @genie-climatique;*/
+            color: @genie-climatique;
+          }
+        }
+
+  			&.cables {
+  				/*background-color: @cables;*/
+  				/*background-image: url('../images/cables-family.svg');*/
+          border-left: 6px solid @cables;
+          border-bottom: none;
+          color: @cables;
+
+          &:hover,
+          &:focus {
+            /*background-color: @cables;*/
+            color: @cables;
+          }
+        }
+
+  			&.industrie {
+  				/*background-color: @industrie;*/
+  				/*background-image: url('../images/industrie-family.svg');*/
+          border-left: 6px solid @industrie;
+          border-bottom: none;
+          color: @industrie;
+
+          &:hover,
+          &:focus {
+            /*background-color: @industrie;*/
+            color: @industrie;
+          }
+        }
+
+  			&.eclairage {
+  				/*background-color: @eclairage;*/
+  				/*background-image: url('../images/eclairage-family.svg');*/
+          border-left: 6px solid @eclairage;
+          border-bottom: none;
+          color: @eclairage;
+
+          &:hover,
+          &:focus {
+            /*background-color: @eclairage;*/
+            color: @eclairage;
+          }
+        }
+
+  			&.securite {
+  				/*background-color: @residentiel;*/
+  				/*background-image: url('../images/securite-family.svg');*/
+          border-left: 6px solid @securite;
+          border-bottom: none;
+          color: @securite;
+
+          &:hover,
+          &:focus {
+            /*background-color: @residentiel;*/
+            color: @securite;
+          }
+        }
+
+  			&.outillage {
+  				/*background-color: @outillage;*/
+  				/*background-image: url('../images/outillage-family.svg');*/
+          border-left: 6px solid @outillage;
+          border-bottom: none;
+          color: @outillage;
+
+          &:hover,
+          &:focus {
+            /*background-color: @outillage;*/
+            color: @outillage;
+          }
+        }
+
+  			&.residentiel {
+  				/*background-color: @residentiel;*/
+  				/*background-image: url('../images/residentiel-family.svg');*/
+          border-left: 6px solid @residentiel;
+          border-bottom: none;
+          color: @residentiel;
+
+          &:hover,
+          &:focus {
+            /*background-color: @residentiel;*/
+            color: @residentiel;
+          }
+        }
+
+        &.tertiaire {
+          /*background-color: @tertiaire;*/
+          /*background-image: url('../images/residentiel-family.svg');*/
+          border-left: 6px solid @tertiaire;
+          border-bottom: none;
+          color: @tertiaire;
+
+          &:hover,
+          &:focus {
+            /*background-color: @tertiaire;*/
+            color: @tertiaire;
+          }
+        }
+  		}
+
+  		&.active {
+  			> a {
+  				&.genie-climatique {
+  					&:hover,
+  					&:focus {
+  						/*background-color: @genie-climatique;*/
+              color: @genie-climatique;
+  					}
+  				}
+
+  				&.cables {
+  					&:hover,
+  					&:focus {
+  						/*background-color: @cables;*/
+              color: @cables;
+  					}
+  				}
+
+  				&.industrie {
+  					&:hover,
+  					&:focus {
+  						/*background-color: @industrie;*/
+              color: @industrie;
+  					}
+  				}
+
+  				&.eclairage {
+  					&:hover,
+  					&:focus {
+  						/*background-color: @eclairage;*/
+              color: @eclairage;
+  					}
+  				}
+
+  				&.securite {
+  					&:hover,
+  					&:focus {
+  						/*background-color: @residentiel;*/
+              color: @residentiel;
+  					}
+  				}
+
+  				&.outillage {
+  					&:hover,
+  					&:focus {
+  						/*background-color: @outillage;*/
+              color: @outillage;
+  					}
+  				}
+
+  				&.residentiel {
+  					&:hover,
+  					&:focus {
+  						/*background-color: @residentiel;*/
+              color: @residentiel;
+  					}
+  				}
+
+  				&.tertiaire {
+  					&:hover,
+  					&:focus {
+  						/*background-color: @tertiaire;*/
+              color: @tertiaire;
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}
