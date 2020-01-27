@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
   padding: 18px;
   background-color: @soneparfr;
 
@@ -27,9 +28,14 @@
     color: #FFF;
     font-family: @font-family-sans-condensed;
 
-    &:hover {
+    &:hover,
+    &:focus {
       color: #FFF;
       text-decoration: none;
+    }
+
+    span {
+      color: #FFF;
     }
 
     strong {
@@ -48,12 +54,5 @@
 
   @media (min-width: @screen-lg-min) {
     justify-content: space-between;
-
-  //   padding-left: 180px;
-  //   background-image: url('../images/sonepar-connect-white-logo.svg');
-  //   background-position: 20px 50%;
-  //   background-repeat: no-repeat;
-  //   background-size: 120px auto;
-  //   background-attachment: scroll;
   }
 }
