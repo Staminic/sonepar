@@ -1532,6 +1532,22 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/css/product.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/css/product.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
 	"/css/template.less": {
 		"aP": 0,
 		"bl": 0,
@@ -2117,6 +2133,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/securite-family.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/sonepar-connect-white-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/sonepar-connect-white-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
