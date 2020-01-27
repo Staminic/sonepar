@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "31934",
 "files": {
+	"/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/.gitattributes",
+		"oF": 0
+		},
 	"/build/app.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2302,7 +2310,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 512915868,
-	"displayValue": "_sonepar",
+	"displayValue": "sonepar",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/images/apple-touch-icon-144x144-precomposed.png",
 	"iconImageWasSetByUser": 0
